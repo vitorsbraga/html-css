@@ -1,0 +1,9 @@
+:lang(pt-br)
+h1{
+  color: rgb(146, 20, 20);
+  font-size: 35px;
+}
+p{
+  color: rgb(9, 255, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

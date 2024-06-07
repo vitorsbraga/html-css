@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página001</title>
+</head>
+<body>
+  <h1> Página destinada a Visualização Pág001</h1>
+  <h2>Usando links Externos</h2>
+  <p>Voce pode accesar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositorio publico no GitHub</a></p>
+  <p>voce pode usar o <a href="https://animesonline.fan/episodio/dragon-ball-z-episodio-85-goku-se-recupera-online1/" target="_blank" rel="external">episódeo de dragon ball Z nm.85(dublado)</a></p>
+  <h2>Agora sobre o redirecionamento interno dentro da página, nesse caso para pág002.html</h2>
+  <p> <a href="pág002.html" rel="Next">Ácesso a página 002</a></p>
+  <h1>exercicio para imagens Flexíveis !</h1>
+    <picture>
+      <source media="(max-width: 750px)" srcset="imagens/ppatriarca.png" type="image/png">
+      <source media="(max-width: 1050px)" srcset="imagens/mpatriarca.png" type="image/png">
+      <img src="imagens/gpatriarca.png" alt="imagens flexiveis">
+    </picture>
+    <h2>Nesta parte utilizaremos Audio !!</h2>
+    <p>primeiro modo mais simples de utilizar audio</p>
+    <audio src="midias/audio.mp3.mp3" controls autoplay></audio>
+    <p>agora uma segunda forma !</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midias/audio.mp3.mp3" type="audio/mpeg">
+    </audio>
+</html>
